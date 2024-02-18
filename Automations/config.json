@@ -1,0 +1,10 @@
+{
+    "links":{
+        "serviceNow":""
+    },
+    "email":{
+        "robotEmail":"mateus.orlandin@gmail.com",
+        "emailSustainSubject":"[R01 Personal - Evolve Meta] Exception",
+        "emailSustainRecipients":"mateus.orlandin@gmail.com"
+    }
+}
