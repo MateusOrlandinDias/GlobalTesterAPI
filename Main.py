@@ -1,9 +1,11 @@
 from fastapi import FastAPI
+from Testers import servicenow
 
 app = FastAPI()
 
 @app.get("/sap-logon")
 def sap_logon():
+
     return {
         "status": "full access"
         }
@@ -17,5 +19,9 @@ def sql_server():
 @app.get("/servicenow")
 def servicenow():
     return {
-        "status": "access pending"
+        "status": "access pending",
+        "testUi": {
+            "login": "success",
+            "navigatePageReports":"error"
+        }
     }
